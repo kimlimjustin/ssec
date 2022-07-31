@@ -24,10 +24,12 @@
 
 .navbar__drop-down__topic:hover + .navbar__drop-down__subtopic {
     display: block;
+    background-color: var(--surface-tertiary-color);
 }
 
 .navbar__drop-down__subtopic:hover {
     display: block;
+    background-color: var(--surface-tertiary-color);
 }
 .navbar__heading {
     padding: 0;
@@ -162,7 +164,7 @@
         display: block;
     }
     .navbar__drop-down-in-queries .queries:hover {
-        background-color: var(--surface-secondary-color);
+        background-color: var(--surface-quatenary-color);
     }
     .navbar__topic {
         display: inline;
@@ -182,6 +184,7 @@
         transition-duration: 0.275s;
         transition-timing-function: ease-in;
         cursor: pointer;
+        background-color: var(--surface-tertiary-color);
     }
     .navbar__drop-down__topic:hover {
         background-color: var(--surface-secondary-color);

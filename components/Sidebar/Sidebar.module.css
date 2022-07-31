@@ -7,14 +7,6 @@
 .sidebar__links:hover {
     color: var(--text-secondary-color);
 }
-.sidebar__container {
-    bottom: 50%;
-    width: 40px;
-    position: fixed;
-    z-index: 8;
-    transform: translateY(50%);
-    left: 1rem;
-}
 
 @media screen and (max-width: 768px) {
     .sidebar__container {
@@ -23,8 +15,19 @@
         margin: auto;
         max-width: 300px;
     }
+    .sidebar__links {
+        margin: 0.5rem auto;
+    }
 }
 @media screen and (min-width: 768px) {
+    .sidebar__container {
+        bottom: 50%;
+        width: 40px;
+        position: fixed;
+        z-index: 8;
+        transform: translateY(50%);
+        left: 1rem;
+    }
     .sidebar__container::before {
         content: '';
         background-color: var(--text-primary-color);

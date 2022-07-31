@@ -1,5 +1,5 @@
 import styles from './Writing.module.css';
-
+import Image from 'next/image';
 interface IWriting {
     title: string;
     createdAt: string;

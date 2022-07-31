@@ -7,7 +7,6 @@ const Home: NextPage = () => {
     return (
         <>
             <Header />
-            <Sidebar />
             <div className="container">
                 <Writing
                     title="The Wonder of Science IX-Alpha."
@@ -17,6 +16,7 @@ const Home: NextPage = () => {
                     thumbnail="https://ssec-sutomo1.weebly.com/uploads/1/0/5/2/10526196/1586681380054_orig.jpg"
                 />
             </div>
+            <Sidebar />
         </>
     );
 };
