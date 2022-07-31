@@ -20,8 +20,10 @@ a {
     --surface-tertiary-color: #f4ecd7;
     --surface-quaternary-color: #f4ded7;
     --text-primary-color: #534e49;
+    --text-secondary-color: #a89784;
 }
 
 body {
     background-color: var(--surface-primary-color);
+    color: var(--text-primary-color);
 }
