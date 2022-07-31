@@ -7,6 +7,7 @@
     position: sticky;
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
+    margin: 0.5rem 0;
 }
 .header {
     background-color: var(--surface-secondary-color);
@@ -30,9 +31,8 @@
 }
 .navbar__heading {
     padding: 0;
-    margin: 0;
     font-size: 50px;
-    font-weight: 10px;
+    font-weight: bold;
     color: var(--text-primary-color);
     font-family: arial, sans-serif;
     text-align: center;
