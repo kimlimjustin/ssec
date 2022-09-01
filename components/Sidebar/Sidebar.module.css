@@ -3,6 +3,7 @@
     display: block;
     text-decoration: none;
     transition: 0.5s;
+    color: var(--text-primary-color);
 }
 .sidebar__links:hover {
     color: var(--text-secondary-color);

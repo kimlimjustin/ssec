@@ -1,0 +1,30 @@
+.aboutus-container {
+    padding: 0 75px;
+    display: flex;
+    text-align: justify;
+}
+
+.aboutus__left-container {
+    flex: 6;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+.aboutus__right-container {
+    flex: 4;
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutus-container {
+        padding: 0 15px;
+        display: block;
+    }
+    .aboutus__left-container,
+    .aboutus__right-container {
+        flex: 1;
+        margin: 0;
+        font-size: 1rem;
+    }
+}

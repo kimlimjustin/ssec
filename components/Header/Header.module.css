@@ -38,6 +38,7 @@
     color: var(--text-primary-color);
     font-family: arial, sans-serif;
     text-align: center;
+    cursor: pointer;
 }
 .navbar__left {
     display: flex;
@@ -59,9 +60,10 @@
     transition-duration: 0.275s;
     transition-timing-function: ease-in;
     cursor: pointer;
-}
-.navbar__topic:hover {
-    background-color: var(--surface-secondary-color);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: auto;
 }
 .navbar__media-queries {
     display: none;

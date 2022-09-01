@@ -1,4 +1,5 @@
 import styles from './Header.module.css';
+import Link from 'next/link';
 const Header = () => {
     return (
         <div className={styles.nav}>
@@ -79,14 +80,14 @@ const Header = () => {
                             <div className={styles['navbar__drop-down__subtopic']}>
                                 <ul>
                                     <li className={styles['navbar__drop-down__item']}>
-                                        <a href="" className={styles['navbar__link']}>
-                                            Link 1
-                                        </a>
+                                        <Link href={'/about'}>
+                                            <a className={styles['navbar__link']}>About us</a>
+                                        </Link>
                                     </li>
                                     <li className={styles['navbar__drop-down__item']}>
-                                        <a href="" className={styles['navbar__link']}>
-                                            Link 2
-                                        </a>
+                                        <Link href={'/about/rutinitas'}>
+                                            <a className={styles['navbar__link']}>Rutinitas</a>
+                                        </Link>
                                     </li>
                                     <li className={styles['navbar__drop-down__item']}>
                                         <a href="" className={styles['navbar__link']}>
@@ -141,7 +142,9 @@ const Header = () => {
             </div>
             <div className={styles['navbar__title']}>
                 <div className={styles['title']}>
-                    <span className={styles['navbar__heading']}>SSEC</span>
+                    <Link href={'/'}>
+                        <span className={styles['navbar__heading']}>SSEC</span>
+                    </Link>
                 </div>
             </div>
             <div className={styles['navbar__right']}>
@@ -166,17 +169,19 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className={styles['navbar']}>
-                    <button className={styles['navbar__topic']}>ABOUT US</button>
+                    <Link href={'/about'}>
+                        <a className={styles['navbar__topic']}>ABOUT US</a>
+                    </Link>
                     <ul className={styles['Drop-down']}>
                         <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 1
-                            </a>
+                            <Link href={'/about'}>
+                                <a className={styles['navbar__link']}>About us</a>
+                            </Link>
                         </li>
                         <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 2
-                            </a>
+                            <Link href={'/about/rutinitas'}>
+                                <a className={styles['navbar__link']}>Rutinitas</a>
+                            </Link>
                         </li>
                         <li className={styles['navbar__drop-down__item']}>
                             <a href="" className={styles['navbar__link']}>
