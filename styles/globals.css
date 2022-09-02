@@ -32,6 +32,10 @@ a {
     color: #3434e1b0;
 }
 
+.caption {
+    color: var(--text-secondary-color);
+}
+
 .container {
     padding: 0 75px;
     text-align: justify;

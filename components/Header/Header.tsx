@@ -90,9 +90,9 @@ const Header = () => {
                                         </Link>
                                     </li>
                                     <li className={styles['navbar__drop-down__item']}>
-                                        <a href="" className={styles['navbar__link']}>
-                                            Link 3
-                                        </a>
+                                        <Link href={'/about/sejarah'}>
+                                            <a className={styles['navbar__link']}>Sejarah</a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -184,9 +184,9 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 3
-                            </a>
+                            <Link href={'/about/sejarah'}>
+                                <a className={styles['navbar__link']}>Sejarah</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
