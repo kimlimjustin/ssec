@@ -33,31 +33,15 @@ const Header = () => {
                         </li>
                         <li>
                             <button className={styles['navbar__drop-down__topic']}>NEWS</button>
-                            <div className={styles['navbar__drop-down__subtopic']}>
-                                <ul>
-                                    <li className={styles['navbar__drop-down__item']}>
-                                        <a href="" className={styles['navbar__link']}>
-                                            Link 1
-                                        </a>
-                                    </li>
-                                    <li className={styles['navbar__drop-down__item']}>
-                                        <a href="" className={styles['navbar__link']}>
-                                            Link 2
-                                        </a>
-                                    </li>
-                                    <li className={styles['navbar__drop-down__item']}>
-                                        <a href="" className={styles['navbar__link']}>
-                                            Link 3
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </li>
                         <li>
                             <button className={styles['navbar__drop-down__topic']}>TWOS</button>
                             <div className={styles['navbar__drop-down__subtopic']}>
                                 <ul>
                                     <li className={styles['navbar__drop-down__item']}>
+                                        <Link href={'/twos/7-beta'}>
+                                            <a className={styles['navbar__link']}>7-Beta</a>
+                                        </Link>
                                         <a href="" className={styles['navbar__link']}>
                                             Link 1
                                         </a>
@@ -121,23 +105,6 @@ const Header = () => {
                 </div>
                 <div className={styles['navbar']}>
                     <button className={styles['navbar__topic']}>NEWS</button>
-                    <ul className={styles['Drop-down']}>
-                        <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 1
-                            </a>
-                        </li>
-                        <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 2
-                            </a>
-                        </li>
-                        <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 3
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
             <div className={styles['navbar__title']}>
@@ -149,12 +116,14 @@ const Header = () => {
             </div>
             <div className={styles['navbar__right']}>
                 <div className={styles['navbar']}>
-                    <button className={styles['navbar__topic']}>TWOS</button>
+                    <Link href={'/twos'}>
+                        <a className={styles['navbar__topic']}>TWOS</a>
+                    </Link>
                     <ul className={styles['Drop-down']}>
                         <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 1
-                            </a>
+                            <Link href={'/twos/7-beta'}>
+                                <a className={styles['navbar__link']}>7-Beta</a>
+                            </Link>
                         </li>
                         <li className={styles['navbar__drop-down__item']}>
                             <a href="" className={styles['navbar__link']}>
