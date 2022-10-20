@@ -126,14 +126,29 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 2
-                            </a>
+                            <Link href={'/twos/7-gamma'}>
+                                <a className={styles['navbar__link']}>7-Gamma</a>
+                            </Link>
                         </li>
                         <li className={styles['navbar__drop-down__item']}>
-                            <a href="" className={styles['navbar__link']}>
-                                Link 3
-                            </a>
+                            <Link href={'/twos/8-alpha'}>
+                                <a className={styles['navbar__link']}>8-Alpha</a>
+                            </Link>
+                        </li>
+                        <li className={styles['navbar__drop-down__item']}>
+                            <Link href={'/twos/8-beta_gamma'}>
+                                <a className={styles['navbar__link']}>8-Beta_Gamma</a>
+                            </Link>
+                        </li>
+                        <li className={styles['navbar__drop-down__item']}>
+                            <Link href={'/twos/9-alpha'}>
+                                <a className={styles['navbar__link']}>9-Alpha</a>
+                            </Link>
+                        </li>
+                        <li className={styles['navbar__drop-down__item']}>
+                            <Link href={'/twos/9-beta'}>
+                                <a className={styles['navbar__link']}>9-Beta</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
