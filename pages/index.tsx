@@ -9,11 +9,12 @@ const Home: NextPage = () => {
             <Header />
             <div className="container">
                 <Writing
-                    title="The Wonder of Science IX-Alpha."
-                    content="Laborum excepteur qui labore in non occaecat ipsum. Excepteur reprehenderit aute ea anim reprehenderit fugiat id culpa. Est nostrud tempor excepteur non velit. Fugiat voluptate mollit ea Lorem ut eu magna ipsum aute id labore adipisicing. Ea consectetur enim ullamco ad aute sit ipsum minim dolore. Aliquip consectetur ad ipsum ad ex sint dolore elit incididunt Lorem eiusmod."
+                    title="The Wonder of Science IX-Beta."
+                    content="The Wonder of Science 9-Alpha diadakan pada hari Sabtu, 08 Februari 2020 kemarin berlangsung meriah dan menarik banyak perhatian murid-murid dan juga para guru SMP/SMA Sutomo 1 Medan. Dengan mengusung tema yang cukup unik yaitu Mythology, para pengunjung diajak untuk menjelajahi dunia mitologi dari berbagai negara sambil menikmati eksperimen-eksperimen menarik yang disuguhkan oleh ke-9 bidang SSEC. Pengunjung pada pameran kali ini pun cukup banyak yaitu 300 orang!"
                     createdAt="32 Februari"
                     category="News"
                     thumbnail="https://ssec-sutomo1.weebly.com/uploads/1/0/5/2/10526196/1586681380054_orig.jpg"
+                    redirect="twos/9-beta"
                 />
             </div>
             <Sidebar />
